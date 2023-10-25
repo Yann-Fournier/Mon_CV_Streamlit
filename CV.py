@@ -26,7 +26,7 @@ with col2:
     st.write("Etudiant en informatique à Paris Ynov Campus.")
     with open("assets/CV.pdf", "rb") as file:
         st.download_button(
-        label=" 📄 Download Resume",
+        label=" 📄 Télécharger mon CV",
         data=file,
         file_name="CV-Yann-Fournier.pdf",
         mime="application/octet-stream",
