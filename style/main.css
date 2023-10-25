@@ -23,7 +23,7 @@ a:hover {
     -o-border-radius:20px;
     -webkit-border-radius:20px;
     -ms-border-radius:20px;
-    -moz-border-radius:20px;  
+    -moz-border-radius:20px;
 }
 
 #SkillBox img {
@@ -39,6 +39,7 @@ a:hover {
     position: relative;
     background: rgba(17, 17, 17, .3);
     margin: 20px auto;
+    border-radius: 20px;
 }
 
 #Skill-HTML {
