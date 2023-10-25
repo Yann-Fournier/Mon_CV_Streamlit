@@ -6,20 +6,17 @@ from PIL import Image
 
 # Variable
 img_profil = Image.open("assets/Profil.png")
-html_file =  "html/main.html"
-css_file =  "style/main.css"
-js_file =  "js/main.js"
 
 # Liaison du css
-with open(css_file) as f:
+with open("style/main.css") as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
-with open(js_file) as f:
-    st.markdown("<script>{}</script>".format(f.read()), unsafe_allow_html=True)
 
-    
 # Début du CV
 st.write("---") # Séparation en markdown
+
+# Colonnes de la première partie
 col1, col2 = st.columns(2, gap="small")
+
 with col1:
     st.image(img_profil, width=302)
 
@@ -40,12 +37,10 @@ with col2:
     st.write("[- Mon Linkedin](https://www.linkedin.com/in/yann-fournier-243453296/)")
 
 st.write("---") # Séparation en markdown
-with open(html_file) as f:
-    st.markdown("<html>{}</html>".format(f.read()), unsafe_allow_html=True)
-    
-#     st.title(NAME)
-#     st.write(DESCRIPTION)
 
-#     st.write("📫", EMAIL)
+# ajout fichier html sur mes skills
+with open("html/main.html") as f:
+    st.markdown("<html>{}</html>".format(f.read()), unsafe_allow_html=True)
+
 
 
