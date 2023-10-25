@@ -42,5 +42,6 @@ st.write("---") # Séparation en markdown
 with open("html/main.html") as f:
     st.markdown("<html>{}</html>".format(f.read()), unsafe_allow_html=True)
 
+st.write("---") # Séparation en markdown
 
 
