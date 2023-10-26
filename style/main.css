@@ -39,7 +39,6 @@ a:hover {
     position: relative;
     background: rgba(17, 17, 17, .3);
     margin: 20px auto;
-    border-radius: 20px;
 }
 
 #Skill-HTML {
@@ -221,6 +220,42 @@ to {
 }
 to {
     width: 85%}
+}
+
+#Skill-Golang {
+    animation: Animate-Golang 4s;
+    -webkit-animation: Animate-Golang 4s;
+    -moz-animation: Animate-Golang 4s;
+    -o-animation: Animate-Golang 4s;
+    width: 75%;
+    height: 50px;
+    position: absolute;
+    background-color: #344e5f;
+}
+@keyframes Animate-Golang {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}@-webkit-keyframes Animate-Golang {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}@-moz-keyframes Animate-Golang {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
+}@-o-keyframes Animate-Golang {
+    from {
+    width: 10px;
+}
+to {
+    width: 75%}
 }
 
 #Skill-JAVA {
@@ -511,6 +546,42 @@ to {
 }
 to {
     width: 75%}
+}
+
+#Skill-Japonais {
+    animation: Animate-Japonais 4s;
+    -webkit-animation: Animate-Japonais 4s;
+    -moz-animation: Animate-Japonais 4s;
+    -o-animation: Animate-Japonais 4s;
+    width: 17%;
+    height: 50px;
+    position: absolute;
+    background-color: #f81e1e;
+}
+@keyframes Animate-Japonais {
+    from {
+    width: 10px;
+}
+to {
+    width: 17%}
+}@-webkit-keyframes Animate-Japonais {
+    from {
+    width: 10px;
+}
+to {
+    width: 17%}
+}@-moz-keyframes Animate-Japonais {
+    from {
+    width: 10px;
+}
+to {
+    width: 17%}
+}@-o-keyframes Animate-Japonais {
+    from {
+    width: 10px;
+}
+to {
+    width: 17%}
 }
 
 .Skill-Area {
