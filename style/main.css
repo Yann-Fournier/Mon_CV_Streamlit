@@ -1,6 +1,12 @@
+body{
+	color: WindowText;
+	background-color: Window;
+	border: 2px solid Highlight;
+}
+
 a {
     text-decoration: none;
-    color: black !important;
+    /* color: white !important; */
     font-weight: 500;
 }
 
@@ -13,10 +19,12 @@ a:hover {
 #SkillBox {
     font-size: 20px;
     font-family: sans-serif;
+    color: black;
     width: 95%;
     height: auto;
     margin: 40px auto;
     background-color: #fff;
+    /* background-color: rgb(14, 17, 23); */
     border: 1px solid #cdcdcd;
     padding: 10px;
     border-radius:20px;
@@ -294,7 +302,7 @@ to {
     width: 45%}
 }
 
-#Skill-C {
+/* #Skill-C {
     animation: Animate-C 4s;
     -webkit-animation: Animate-C 4s;
     -moz-animation: Animate-C 4s;
@@ -364,7 +372,7 @@ to {
 }
 to {
     width: 0%}
-}
+} */
 
 /* ----------------------------------------------------------------------------------------------------------------- */
 #Skill-Réseaux {
