@@ -77,11 +77,11 @@ st.write("""
     - 2023-2024 : Deuxième année en école d’ingénieure en informatique à Paris Ynov Campus.
     - 2022-2023 : Première année en école d’ingénieure en informatique  à Paris Ynov Campus.
     - 2022 : Obtention du Baccalauréat avec mention Très Bien.
-    - 2021-2022 : Terminale générale au lycée Paul Lapie avec spécialité 
-    Mathématiques, Science du Numérique et de l'Informatique (NSI) et option Maths Expert. 
-    - 2020-2021 : 1er générale au lycée Paul Lapie avec option Maths, 
-    Physique chimie et Science du Numérique et de l'Informatique (NSI). 
-    - 2019 : Obtention du Brevet des Collèges - Mention TB
+    - 2021-2022 : Terminale générale au lycée Paul Lapie avec spécialité
+    Mathématiques, Science du Numérique et de l'Informatique (NSI) et option Maths Expert.
+    - 2020-2021 : 1er générale au lycée Paul Lapie avec option Maths,
+    Physique chimie et Science du Numérique et de l'Informatique (NSI).
+    - 2019 : Obtention du Brevet des Collèges - Mention Très Bien.
 """)
 
 st.write("---") # Séparation en markdown
