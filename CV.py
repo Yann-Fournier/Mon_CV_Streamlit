@@ -93,9 +93,9 @@ with colonne3:
     st.subheader("Centres d'interêt")
 
     st.write("""
-        - Sports:  Volley-ball, Callisthénie 
-        - Jeux vidéos: Apex, Rocket League
-        - Lecture: Livre sur la finance, sur la science et des mangas
+        - Sports:  🏐Volley-ball, 🤸Callisthénie 
+        - Jeux vidéos: Apex, 🚗Rocket League
+        - Lecture: Livre sur la 📈finance, sur la 🪐science et des mangas
     """)
 
 with colonne4:
