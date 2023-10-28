@@ -556,7 +556,7 @@ to {
     width: 75%}
 }
 
-#Skill-Japonais {
+/* #Skill-Japonais {
     animation: Animate-Japonais 4s;
     -webkit-animation: Animate-Japonais 4s;
     -moz-animation: Animate-Japonais 4s;
@@ -590,7 +590,7 @@ to {
 }
 to {
     width: 17%}
-}
+} */
 
 .Skill-Area {
     z-index: 1;
