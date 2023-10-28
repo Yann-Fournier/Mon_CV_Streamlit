@@ -43,23 +43,23 @@ st.write("---") # Séparation en markdown
 
 st.subheader("Expériences étudiantes")
 
-st.write("###### - Scraping du site [alvergnas.com](https://alvergnas.com) et affichage des données récolter sur Streamlit avec des graphiques")
+st.write("- ###### Scraping du site [alvergnas.com](https://alvergnas.com) et affichage des données récolter sur Streamlit avec des graphiques")
 st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: Python, Selenium, Streamlit, MongoDb, matplotlib, numpy, pandas")
 st.write(" ")
 
-st.write("###### - Création d'une extension google chrome")
+st.write("- ###### Création d'une extension google chrome")
 st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: HTML, CSS, Javascript, JSON")
 st.write(" ")
 
-st.write("###### - Projet tetris sur le web")
+st.write("- ###### Projet tetris sur le web")
 st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: HTML, CSS, Javascript")
 st.write(" ")
 
-st.write("###### - Création d'un émulateur CHIP-8 en golang")
+st.write("- ###### Création d'un émulateur CHIP-8 en golang")
 st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: Golang, CHIP-8, ebiten")
 st.write(" ")
 
-st.write("###### - Création d'un forum de discution sur le web")
+st.write("- ###### Création d'un forum de discution sur le web")
 st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: Golang, SQLite, HTML, CSS, Javascript")
 
 st.write("---") # Séparation en markdown
