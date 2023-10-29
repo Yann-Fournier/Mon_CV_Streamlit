@@ -51,15 +51,15 @@ st.write("- ###### Création d'une [extension](https://github.com/Yann-Fournier/
 st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: HTML, CSS, Javascript, JSON")
 st.write(" ")
 
-st.write("- ###### Projet [tetris](https://github.com/Yann-Fournier/Tetris-js) sur le web")
+st.write("- ###### Projet [tetris](https://github.com/Yann-Fournier/Tetris-js-B1) sur le web")
 st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: HTML, CSS, Javascript")
 st.write(" ")
 
-st.write("- ###### Création d'un [émulateur CHIP-8](https://github.com/Yann-Fournier/Emulateur-CHIP-8) en golang")
+st.write("- ###### Création d'un [émulateur CHIP-8](https://github.com/Yann-Fournier/Emulateur-CHIP-8-B2) en golang")
 st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: Golang, CHIP-8, ebiten")
 st.write(" ")
 
-st.write("- ###### Création d'un [forum](https://github.com/Yann-Fournier/Forum) de discution sur le web")
+st.write("- ###### Création d'un [forum](https://github.com/Yann-Fournier/Forum-B1) de discution sur le web")
 st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: Golang, SQLite, HTML, CSS, Javascript")
 
 st.write("---") # Séparation en markdown
