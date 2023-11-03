@@ -74,7 +74,7 @@ st.write("""
     - Gestion de la caisse 
 """)
 
-st.write("Aviva Assurances / stage d’observation de 3e  (Décembre 2019)")
+st.write("Abeille Assurances / stage d’observation de 3e  (Décembre 2019)")
 st.write("""
     - Compréhension de l’organisation de l’entreprise 
     - Interview des directeurs 
@@ -109,7 +109,6 @@ colonne3, colonne4 = st.columns(2, gap="small")
 
 with colonne3:
     st.subheader("Centres d'interêt")
-
     st.write("""
         - Sports: 🏐Volley-ball, 🤸Callisthénie 
         - Jeux vidéos: Apex, 🚗Rocket League
@@ -118,11 +117,11 @@ with colonne3:
 
 with colonne4:
     st.subheader("Points Forts")
-
     st.write("""
-        - Ponctuel, 
-        - Organisé, 
-        - Sociable et souriant, 
-        - Appliqué dans mon travail 
         - Esprit d’équipe 
+        - Esprit d’analyse et de synthèse 
+        - Autonome 
+        - Curieux 
+        - Méthodique 
+        - Proactif
     """)
