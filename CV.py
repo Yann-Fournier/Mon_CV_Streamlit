@@ -35,6 +35,9 @@ with col2:
 
 st.write("---") # Séparation en markdown
 
+st.write("#### Je recherche un stage de 6 semaines dans le domaine de la Data ou de l’IA en tant que développeur ou analyste.")
+
+st.write("---") # Séparation en markdown
 # ajout fichier html sur mes skills
 with open("html/main.html") as f:
     st.markdown("<html>{}</html>".format(f.read()), unsafe_allow_html=True)
@@ -47,7 +50,7 @@ st.write("- ###### [Scraping](https://github.com/Yann-Fournier/Ydays-Data-B1) de
 st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: Python, Selenium, Streamlit, MongoDb, matplotlib, numpy, pandas")
 st.write(" ")
 
-st.write("- ###### Création d'une [extension](https://github.com/Yann-Fournier/Extension) google chrome")
+st.write("- ###### Création d'une extension google chrome")
 st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: HTML, CSS, Javascript, JSON")
 st.write(" ")
 
