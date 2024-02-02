@@ -380,7 +380,7 @@ to {
     -webkit-animation: Animate-Réseaux 4s;
     -moz-animation: Animate-Réseaux 4s;
     -o-animation: Animate-Réseaux 4s;
-    width: 30%;
+    width: 75%;
     height: 50px;
     position: absolute;
     background-color: #af84f9;
@@ -390,19 +390,19 @@ to {
     width: 10px;
 }
 to {
-    width: 30%}
+    width: 75%}
 }@-webkit-keyframes Animate-Réseaux {
     from {
     width: 10px;
 }
 to {
-    width: 30%}
+    width: 75%}
 }@-moz-keyframes Animate-Réseaux {
     from {
     width: 10px;
 }
 to {
-    width: 30%}
+    width: 75%}
 }@-o-keyframes Animate-Réseaux {
     from {
     width: 10px;
