@@ -1,0 +1,128 @@
+/*
+ * ie7.js makes selectors work on IE
+ * https://code.google.com/p/ie7-js/
+ */
+@import url(https://fonts.googleapis.com/css?family=Oswald|Roboto:400,700);
+
+h1, h2, h3, h4, h5 {
+  margin: 0 0 0 0;
+  font-size: 32px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  color : rgba(0, 0, 0, 0.7);
+  letter-spacing: 2px;
+}
+
+#timeline {
+  list-style: none;
+  margin: 50px 0 30px 120px;
+  padding-left: 30px;
+  border-left: 8px solid rgba(0, 0, 0, 0.7);;
+}
+#timeline li {
+  margin: 40px 0;
+  position: relative;
+}
+#timeline p {
+  margin: 0 0 15px;
+}
+
+.date {
+  margin-top: -10px;
+  top: 50%;
+  left: -180px;
+  font-size: 0.95em;
+  line-height: 20px;
+    text-align: right;
+  position: absolute;
+}
+
+.circle {
+  margin-top: -10px;
+  top: 50%;
+  left: -44px;
+  width: 10px;
+  height: 10px;
+  background: #ffffff;
+  border: 5px solid rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+}
+
+.content {
+  max-height: 20px;
+  padding: 50px 20px 0;
+  border-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 0.5em;
+  position: relative;
+}
+.content:before, .content:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border: solid transparent;
+  position: absolute;
+  pointer-events: none;
+  right: 100%;
+}
+.content:before {
+  border-right-color: inherit;
+  border-width: 20px;
+  top: 50%;
+  margin-top: -20px;
+}
+.content:after {
+  border-right-color: #ffffff;
+  border-width: 17px;
+  top: 50%;
+  margin-top: -17px;
+}
+.content p {
+  max-height: 0;
+  color: transparent;
+  text-align: justify;
+  word-break: break-word;
+  hyphens: auto;
+  overflow: hidden;
+}
+
+label {
+  font-size: 1.3em;
+  position: absolute;
+  z-index: 100;
+  top: 20px;
+  -webkit-transition: -webkit-transform 0.2s linear;
+}
+
+.radio {
+  display: none;
+}
+
+.relative label:hover {
+    cursor: pointer;
+}
+
+/* radio checked */
+.radio:checked + .relative label {
+  cursor: auto;
+  -webkit-transform: translateX(42px);
+}
+
+.radio:checked + .relative .circle {
+  background: #f98262;
+}
+.radio:checked ~ .content {
+  max-height: 180px;
+  border-color: rgba(0, 0, 0, 0.7);;
+  margin-right: 20px;
+  -webkit-transform: translateX(20px);
+  -webkit-transition: max-height 0.4s linear, border-color 0.5s linear, -webkit-transform 0.2s linear;
+}
+.radio:checked ~ .content p {
+  max-height: 200px;
+  color: rgba(0, 0, 0, 0.7);;
+  -webkit-transition: color 0.3s linear 0.3s;
+}
