@@ -4,13 +4,22 @@
  */
 @import url(https://fonts.googleapis.com/css?family=Oswald|Roboto:400,700);
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3 {
   margin: 0 0 0 0;
   font-size: 32px;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   color : rgba(0, 0, 0, 0.7);
   letter-spacing: 2px;
+}
+
+h4 {
+  margin: 0 0 0 0;
+  font-size: 27px;
+  font-family: "Oswald", sans-serif;
+  color : rgba(0, 0, 0, 0.7);
+  text-align: center;
+  /*letter-spacing: 2px;*/
 }
 
 #timeline {
@@ -40,9 +49,9 @@ h1, h2, h3, h4, h5 {
 .circle {
   margin-top: -10px;
   top: 50%;
-  left: -44px;
-  width: 10px;
-  height: 10px;
+  left: -43px;
+  width: 18px;
+  height: 18px;
   background: #ffffff;
   border: 5px solid rgba(0, 0, 0, 0.7);
   border-radius: 50%;
@@ -52,7 +61,7 @@ h1, h2, h3, h4, h5 {
 
 .content {
   max-height: 20px;
-  padding: 50px 20px 0;
+  padding: 75px 20px 0;
   border-color: transparent;
   border-width: 2px;
   border-style: solid;
@@ -107,7 +116,7 @@ label {
 
 /* radio checked */
 .radio:checked + .relative label {
-  cursor: auto;
+  cursor: pointer;
   -webkit-transform: translateX(42px);
 }
 
