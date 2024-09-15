@@ -1,8 +1,4 @@
-#import
 import streamlit as st
-import pandas as pd
-import numpy as np
-from PIL import Image
 
 # Liaison du css
 with open("css/skills.css") as f:
