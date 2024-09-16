@@ -102,6 +102,7 @@ p {
   border-radius: 0.5em;
   position: relative;
   overflow: auto;
+  opacity: 0;
 }
 
 .content:before, .content:after {
@@ -169,16 +170,19 @@ label {
 
 .radio:checked + .relative .circle {
   background: #f98262;
+  opacity: 1;
 }
 .radio:checked ~ .content {
   max-height: 800px;
   border-color: rgba(0, 0, 0, 0.7);;
   margin-right: 20px;
+  opacity: 1;
   -webkit-transform: translateX(20px);
   -webkit-transition: max-height 0.4s linear, border-color 0.5s linear, -webkit-transform 0.2s linear;
 }
 .radio:checked ~ .content p {
   max-height: 200px;
+  opacity: 1;
   color: rgba(0, 0, 0, 0.7);;
   -webkit-transition: color 0.3s linear 0.3s;
 }
