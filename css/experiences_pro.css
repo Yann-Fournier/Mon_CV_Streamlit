@@ -19,27 +19,61 @@ h4 {
   font-family: "Oswald", sans-serif;
   color : rgba(0, 0, 0, 0.7);
   text-align: center;
+  letter-spacing: 2px;
   /*letter-spacing: 2px;*/
+}
+
+p {
+  color : rgba(0, 0, 0, 0.7);
+  font-family: "Roboto", sans-serif;
 }
 
 #timeline {
   list-style: none;
   margin: 50px 0 30px 120px;
   padding-left: 30px;
-  border-left: 8px solid rgba(0, 0, 0, 0.7);;
+  border-left: 8px solid rgba(0, 0, 0, 0.7);
 }
 #timeline li {
   margin: 40px 0;
+  font-family: "Oswald", sans-serif;
   position: relative;
 }
+
+#timeline span {
+  font-family: "Oswald", sans-serif;
+  color : rgba(0, 0, 0, 0.7);
+  letter-spacing: 2px;
+}
+
 #timeline p {
   margin: 0 0 15px;
+  color : rgba(0, 0, 0, 0.7);
+  font-family: "Roboto", sans-serif;
+}
+
+#timeline pre {
+  margin: 0 0 15px;
+  color : rgba(0, 0, 0, 0.7);
+  font-family: "Roboto", sans-serif;
+}
+
+#timeline a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+#timeline a:hover {
+  color: #f42fed !important;
+  text-decoration: none;
 }
 
 .date {
   margin-top: -10px;
   top: 50%;
-  left: -180px;
+  left: -195px;
   font-size: 0.95em;
   line-height: 20px;
     text-align: right;
@@ -67,7 +101,9 @@ h4 {
   border-style: solid;
   border-radius: 0.5em;
   position: relative;
+  overflow: auto;
 }
+
 .content:before, .content:after {
   content: "";
   width: 0;
@@ -99,11 +135,21 @@ h4 {
 }
 
 label {
-  font-size: 1.3em;
+  width: 90%;
+  font-size: 1.5em;
   position: absolute;
   z-index: 100;
-  top: 20px;
+  top: 1px;
+  padding: 18px 0;
+  color : rgba(0, 0, 0, 0.7);
+  font-family: "Oswald", sans-serif;
   -webkit-transition: -webkit-transform 0.2s linear;
+}
+
+.titre_article {
+  font-size: 1.5em;
+  color : rgba(0, 0, 0, 0.7);
+  padding-top: 25px;
 }
 
 .radio {
@@ -117,6 +163,7 @@ label {
 /* radio checked */
 .radio:checked + .relative label {
   cursor: pointer;
+  background: white;
   -webkit-transform: translateX(42px);
 }
 
@@ -124,7 +171,7 @@ label {
   background: #f98262;
 }
 .radio:checked ~ .content {
-  max-height: 180px;
+  max-height: 800px;
   border-color: rgba(0, 0, 0, 0.7);;
   margin-right: 20px;
   -webkit-transform: translateX(20px);

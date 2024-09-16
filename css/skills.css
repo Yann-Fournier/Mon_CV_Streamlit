@@ -4,17 +4,6 @@ body{
 	border: 2px solid Highlight;
 }
 
-a {
-    text-decoration: none;
-    /* color: white !important; */
-    font-weight: 500;
-}
-
-a:hover {
-    color: #f42fed !important;
-    text-decoration: none;
-}
-
 /* Skills Box----------------------------------------------------------------------------------------------------------- */
 #SkillBox {
     font-size: 20px;

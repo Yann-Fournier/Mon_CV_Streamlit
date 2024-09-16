@@ -2,8 +2,8 @@ import streamlit as st
 
 # Configuration de la page
 st.set_page_config(
-    page_title="Mon Application",
-    page_icon="🎉",
+    page_title="CV Yann Fournier",
+    page_icon="📄",
     layout="wide",  # 'centered' ou 'wide'
     initial_sidebar_state="expanded",  # 'auto', 'expanded' ou 'collapsed'
 )
