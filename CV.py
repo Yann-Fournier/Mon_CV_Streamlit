@@ -84,7 +84,7 @@ with col4:
         st.markdown(html_code_linkedin, unsafe_allow_html=True)
 st.write("---")  # Séparation en markdown
 
-st.write("#### Je suis actuellement en alternance chez Abeille Assurances.")
+st.write("#### Je suis actuellement en 3è année d'école d'ingénieur en informatique, en alternance chez Abeille Assurances")
 st.write("---")  # Séparation en markdown
 
 # ajout fichier html sur mes skills
@@ -95,7 +95,7 @@ st.write("---")  # Séparation en markdown
 st.subheader("Projets Personnels et étudiants")
 
 st.write("- ###### [Scraping](https://github.com/Yann-Fournier/Ydays-Data-B1) des sites alvergnas.com et "
-         "Aramisauto.com . Nettoyage et affichage des données récolter sur Streamlit avec des graphiques")
+         "Aramisauto.com . Nettoyage et affichage des données récoltées sur Streamlit avec des graphiques")
 st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: Python, Selenium, Streamlit, "
          "MongoDb, matplotlib, numpy, pandas")
 st.write(" ")
@@ -112,7 +112,7 @@ st.write("- ###### Création d'un [émulateur CHIP-8](https://github.com/Yann-Fo
 st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: Golang, CHIP-8, ebiten")
 st.write(" ")
 
-st.write("- ###### Création d'un [forum](https://github.com/Yann-Fournier/Forum-B1) de discution sur le web")
+st.write("- ###### Création d'un [forum](https://github.com/Yann-Fournier/Forum-B1) de discussion sur le web")
 st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: Golang, SQLite, HTML, CSS, Javascript")
 
 st.write("---")  # Séparation en markdown
@@ -153,12 +153,12 @@ st.write("---")  # Séparation en markdown
 st.subheader("Formations")
 
 st.write("""
-    - 2023-2024 : Deuxième année en école d’ingénieure en informatique à Paris Ynov Campus.
-    - 2022-2023 : Première année en école d’ingénieure en informatique  à Paris Ynov Campus.
+    - 2023-2024 : Deuxième année en école d’ingénieur en informatique à Paris Ynov Campus.
+    - 2022-2023 : Première année en école d’ingénieur en informatique à Paris Ynov Campus.
     - 2022 : Obtention du Baccalauréat avec mention Très Bien.
-    - 2021-2022 : Terminale générale au lycée Paul Lapie avec spécialité
+    - 2021-2022 : Terminale générale au lycée Paul Lapie avec spécialités
     Mathématiques, Science du Numérique et de l'Informatique (NSI) et option Maths Expert.
-    - 2020-2021 : 1er générale au lycée Paul Lapie avec option Maths,
+    - 2020-2021 : 1er générale au lycée Paul Lapie avec option Mathématiques,
     Physique chimie et Science du Numérique et de l'Informatique (NSI).
     - 2019 : Obtention du Brevet des Collèges - Mention Très Bien.
 """)
