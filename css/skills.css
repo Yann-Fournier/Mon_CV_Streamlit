@@ -332,35 +332,35 @@ to {
     -webkit-animation: Animate-C-sharpe 4s;
     -moz-animation: Animate-C-sharpe 4s;
     -o-animation: Animate-C-sharpe 4s;
-    width: 0%;
+    width: 65%;
     height: 50px;
     position: absolute;
     background-color: #3e4b19;
 }
 @keyframes Animate-C-sharpe {
     from {
-    width: 0px;
+    width: 10px;
 }
 to {
-    width: 0%}
+    width: 65%}
 }@-webkit-keyframes Animate-C-sharpe {
     from {
-    width: 0px;
+    width: 10px;
 }
 to {
-    width: 0%}
+    width: 65%}
 }@-moz-keyframes Animate-C-sharpe {
     from {
-    width: 0px;
+    width: 10px;
 }
 to {
-    width: 0%}
+    width: 65%}
 }@-o-keyframes Animate-C-sharpe {
     from {
-    width: 0px;
+    width: 10px;
 }
 to {
-    width: 0%}
+    width: 65%}
 }
 
 /* ----------------------------------------------------------------------------------------------------------------- */
