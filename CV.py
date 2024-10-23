@@ -33,7 +33,7 @@ with col4:
             key="download_CV_header",
             label=" 📄 Télécharger mon CV",
             data=file,
-            file_name="CV-Yann-Fournier.pdf",
+            file_name="CV_Yann_Fournier.pdf",
             mime="application/octet-stream"
         )
 
