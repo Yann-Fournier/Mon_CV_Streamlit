@@ -37,6 +37,10 @@
     row-gap: 30px;
 }
 
+.grid-items:hover {
+    transform: scale(105%);
+}
+
 .photo-competences {
     height: 100px;
     width: 100px;
