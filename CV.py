@@ -8,13 +8,15 @@ st.set_page_config(
     initial_sidebar_state="expanded",  # 'auto', 'expanded' ou 'collapsed'
 )
 
-# Liaison du css
-# with open("css/skills.css") as f:
-#     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
+# Liaison des css
 with open("css/competences.css") as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
 
-# Début du CV
+with open("css/experiences_pro.css") as f:
+    st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
+
+
+# Infos perso ----------------------------------------------------------------------------------------------------------
 st.write("---")  # Séparation en markdown
 
 # Colonnes de la première partie
@@ -84,94 +86,15 @@ with col4:
         '''
     with col4:  # Linkedin
         st.markdown(html_code_linkedin, unsafe_allow_html=True)
+
+
+# Phrase situation  ----------------------------------------------------------------------------------------------------
 st.write("---")  # Séparation en markdown
 
 st.write("#### Je suis actuellement en 3è année d'école d'ingénieur en informatique, en alternance chez Abeille Assurances")
-st.write("---")  # Séparation en markdown
 
-# ------------------------------------------------------------------------------------------------------------------------------
-# ajout fichier html sur mes skills
-# with open("html/skills.html") as f:
-#     st.markdown("<html>{}</html>".format(f.read()), unsafe_allow_html=True)
 
-with open("html/competences.html") as f:
-    st.markdown("<html>{}</html>".format(f.read()), unsafe_allow_html=True)
-
-st.write("---")  # Séparation en markdown
-
-# ------------------------------------------------------------------------------------------------------------------------------
-
-st.subheader("Projets Personnels et étudiants")
-
-st.write("- ###### [Scraping](https://github.com/Yann-Fournier/Ydays-Data-B1) des sites alvergnas.com et "
-         "Aramisauto.com . Nettoyage et affichage des données récoltées sur Streamlit avec des graphiques")
-st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: Python, Selenium, Streamlit, "
-         "MongoDb, matplotlib, numpy, pandas")
-st.write(" ")
-
-st.write("- ###### Création d'une extension google chrome")
-st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: HTML, CSS, Javascript, JSON")
-st.write(" ")
-
-st.write("- ###### Projet [tetris](https://github.com/Yann-Fournier/Tetris-js-B1) sur le web")
-st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: HTML, CSS, Javascript")
-st.write(" ")
-
-st.write("- ###### Création d'un [émulateur CHIP-8](https://github.com/Yann-Fournier/Emulateur-CHIP-8-B2) en golang")
-st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: Golang, CHIP-8, ebiten")
-st.write(" ")
-
-st.write("- ###### Création d'un [forum](https://github.com/Yann-Fournier/Forum-B1) de discussion sur le web")
-st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: Golang, SQLite, HTML, CSS, Javascript")
-
-st.write("---")  # Séparation en markdown
-# Ancien truc -------------------------------------------------------------------------------------------------
-# st.subheader("Expériences professionnelles")
-#
-# st.write(" Bio life / vendeur (Octobre 2021 – Avril 2022)")
-# st.write("""
-#     - Mise en étalage des fruits et légumes sur le marché de la Garenne
-#     Colombes,
-#     - Déchargement et chargement de la marchandise,
-#     - Accueille et vente auprès des clients
-#     - Gestion de la caisse
-# """)
-#
-# st.write("Abeille Assurances / stage d’observation de 3e  (Décembre 2019)")
-# st.write("""
-#     - Compréhension de l’organisation de l’entreprise
-#     - Interview des directeurs
-#     - Rédaction d’un rapport de stage
-# """)
-#
-# st.write("Collège Les Vallées / concours projet fusée (2017, 2018, 2019)")
-# st.write("""
-#     - Construction en équipe d’une fusée selon certains critères et en compétition
-#     face à d’autres équipes.
-# """)
-
-# Blog -----------------------------------------------------------------------------------------------
-with open("css/experiences_pro.css") as f:
-    st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
-
-with open("html/experiences_pro.html") as f:
-    st.markdown("<html>{}</html>".format(f.read()), unsafe_allow_html=True)
-
-st.write("---")  # Séparation en markdown
-
-st.subheader("Formations")
-
-st.write("""
-    - 2023-2024 : Deuxième année en école d’ingénieur en informatique à Paris Ynov Campus.
-    - 2022-2023 : Première année en école d’ingénieur en informatique à Paris Ynov Campus.
-    - 2022 : Obtention du Baccalauréat avec mention Très Bien.
-    - 2021-2022 : Terminale générale au lycée Paul Lapie avec spécialités
-    Mathématiques, Science du Numérique et de l'Informatique (NSI) et option Maths Expert.
-    - 2020-2021 : 1er générale au lycée Paul Lapie avec option Mathématiques,
-    Physique chimie et Science du Numérique et de l'Informatique (NSI).
-    - 2019 : Obtention du Brevet des Collèges - Mention Très Bien.
-""")
-
+# Autres infos ---------------------------------------------------------------------------------------------------------
 st.write("---")  # Séparation en markdown
 
 # Colonnes de la première partie
@@ -196,9 +119,69 @@ with col4:
         - Proactif
     """)
 
+
+# Compétences ----------------------------------------------------------------------------------------------------------
 st.write("---")  # Séparation en markdown
-st.write("  ")  # Séparation en markdown
-st.write("  ")  # Séparation en markdown
+
+with open("html/competences.html") as f:
+    st.markdown("<html>{}</html>".format(f.read()), unsafe_allow_html=True)
+
+
+# Projets Personnels et étudiants --------------------------------------------------------------------------------------
+st.write("---")  # Séparation en markdown
+
+st.subheader("Projets Personnels et étudiants")
+
+st.write("- ###### [Scraping](https://github.com/Yann-Fournier/Ydays-Data-B1) des sites alvergnas.com et "
+         "Aramisauto.com . Nettoyage et affichage des données récoltées sur Streamlit avec des graphiques")
+st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: Python, Selenium, Streamlit, "
+         "MongoDb, matplotlib, numpy, pandas")
+st.write(" ")
+
+st.write("- ###### Création d'une extension google chrome")
+st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: HTML, CSS, Javascript, JSON")
+st.write(" ")
+
+st.write("- ###### Projet [tetris](https://github.com/Yann-Fournier/Tetris-js-B1) sur le web")
+st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: HTML, CSS, Javascript")
+st.write(" ")
+
+st.write("- ###### Création d'un [émulateur CHIP-8](https://github.com/Yann-Fournier/Emulateur-CHIP-8-B2) en golang")
+st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: Golang, CHIP-8, ebiten")
+st.write(" ")
+
+st.write("- ###### Création d'un [forum](https://github.com/Yann-Fournier/Forum-B1) de discussion sur le web")
+st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: Golang, SQLite, HTML, CSS, Javascript")
+
+
+# Blog -----------------------------------------------------------------------------------------------
+st.write("---")  # Séparation en markdown
+
+with open("html/experiences_pro.html") as f:
+    st.markdown("<html>{}</html>".format(f.read()), unsafe_allow_html=True)
+
+
+# Experiences ----------------------------------------------------------------------------------------
+st.write("---")  # Séparation en markdown
+
+st.subheader("Formations")
+
+st.write("""
+    - 2023-2024 : Deuxième année en école d’ingénieur en informatique à Paris Ynov Campus.
+    - 2022-2023 : Première année en école d’ingénieur en informatique à Paris Ynov Campus.
+    - 2022 : Obtention du Baccalauréat avec mention Très Bien.
+    - 2021-2022 : Terminale générale au lycée Paul Lapie avec spécialités
+    Mathématiques, Science du Numérique et de l'Informatique (NSI) et option Maths Expert.
+    - 2020-2021 : 1er générale au lycée Paul Lapie avec option Mathématiques,
+    Physique chimie et Science du Numérique et de l'Informatique (NSI).
+    - 2019 : Obtention du Brevet des Collèges - Mention Très Bien.
+""")
+
+
+# Contact de bas de page -----------------------------------------------------------------------------------------------
+st.write("---")  # Séparation en markdown
+st.write("  ")  # Retour à la ligne
+st.write("  ")  # Retour à la ligne
 
 col1, col2, col3, col4, col5, col6, col7 = st.columns([1, 1, 2, 2, 2, 1, 1])
 
