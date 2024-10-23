@@ -9,7 +9,9 @@ st.set_page_config(
 )
 
 # Liaison du css
-with open("css/skills.css") as f:
+# with open("css/skills.css") as f:
+#     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
+with open("css/competences.css") as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
 
 # Début du CV
@@ -87,10 +89,17 @@ st.write("---")  # Séparation en markdown
 st.write("#### Je suis actuellement en 3è année d'école d'ingénieur en informatique, en alternance chez Abeille Assurances")
 st.write("---")  # Séparation en markdown
 
+# ------------------------------------------------------------------------------------------------------------------------------
 # ajout fichier html sur mes skills
-with open("html/skills.html") as f:
+# with open("html/skills.html") as f:
+#     st.markdown("<html>{}</html>".format(f.read()), unsafe_allow_html=True)
+
+with open("html/competences.html") as f:
     st.markdown("<html>{}</html>".format(f.read()), unsafe_allow_html=True)
+
 st.write("---")  # Séparation en markdown
+
+# ------------------------------------------------------------------------------------------------------------------------------
 
 st.subheader("Projets Personnels et étudiants")
 

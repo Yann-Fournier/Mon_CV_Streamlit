@@ -1,0 +1,148 @@
+.developer_skills * {
+  font-family: "Oswald", sans-serif;
+}
+
+.developer_skills .text-blk {
+    margin: 0;
+    padding: 10px;
+    line-height: 25px;
+}
+
+.developer_skills .responsive-container-block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: flex-start;
+}
+
+.developer_skills .responsive-container-block.bg {
+    max-width: 1500px;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 10px;
+}
+
+.developer_skills .responsive-container-block.line {
+    min-height: 51px;
+    width: 2px;
+    padding: 0;
+    background-color: #c4c4c4;
+    margin: 0;
+}
+
+.developer_skills .text-blk.title {
+    font-size: 25px;
+    line-height: 34px;
+    font-weight: 700;
+    color: #00b2eb;
+    padding: 10px 10px 0;
+    text-align: center;
+    margin: 0 0 5px;
+}
+
+.developer_skills .text-blk.heading {
+    max-width: 800px;
+    font-size: 25px;
+    line-height: 34px;
+    color: #666666;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 40px;
+}
+
+.developer_skills .responsive-container-block.card {
+    width: 30%;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    padding: 41px 10px 31px;
+    border-radius: 10px;
+    border-top-color: #999999;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: #999999;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: #999999;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: #999999;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-repeat: stretch;
+    border-image-source: none;
+    border-image-width: 1;
+    max-width: 350px;
+}
+
+.developer_skills .responsive-container-block.img {
+    width: 58px;
+    min-height: 58px;
+    margin: 0 0 10px;
+    background-image: url("https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/eourcourses1.svg");
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+.developer_skills .text-blk.desc {
+    font-size: 20px;
+    line-height: 27px;
+    color: #999999;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 10px 0;
+}
+
+.developer_skills .text-blk.info {
+    font-size: 20px;
+    line-height: 27px;
+    color: #999999;
+    text-align: center;
+}
+
+.developer_skills .responsive-container-block.contenu {
+    justify-content: space-evenly;
+    width: auto;
+}
+
+.developer_skills .responsive-container-block.card:hover {
+    border-top-color: #333333;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: #333333;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: #333333;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: #333333;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-repeat: stretch;
+    border-image-source: none;
+    border-image-width: 1;
+}
+
+@media (max-width: 768px) {
+    .developer_skills .text-blk.heading {
+        font-size: 32px;
+        line-height: 44px;
+    }
+
+    .developer_skills .responsive-container-block.card {
+        width: 44%;
+        margin: 0 0 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .developer_skills .responsive-container-block.card {
+        width: 100%;
+    }
+}
