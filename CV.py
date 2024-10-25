@@ -136,30 +136,30 @@ st.write("---")  # Séparation en markdown
 st.subheader("Projets Personnels et étudiants")
 
 # Ancien -------------------
-# st.write("- ###### [Scraping](https://github.com/Yann-Fournier/Ydays-Data-B1) des sites alvergnas.com et "
-#          "Aramisauto.com . Nettoyage et affichage des données récoltées sur Streamlit avec des graphiques")
-# st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: Python, Selenium, Streamlit, "
-#          "MongoDb, matplotlib, numpy, pandas")
-# st.write(" ")
-#
-# st.write("- ###### Création d'une extension google chrome")
-# st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: HTML, CSS, Javascript, JSON")
-# st.write(" ")
-#
-# st.write("- ###### Projet [tetris](https://github.com/Yann-Fournier/Tetris-js-B1) sur le web")
-# st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: HTML, CSS, Javascript")
-# st.write(" ")
-#
-# st.write("- ###### Création d'un [émulateur CHIP-8](https://github.com/Yann-Fournier/Emulateur-CHIP-8-B2) en golang")
-# st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: Golang, CHIP-8, ebiten")
-# st.write(" ")
-#
-# st.write("- ###### Création d'un [forum](https://github.com/Yann-Fournier/Forum-B1) de discussion sur le web")
-# st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: Golang, SQLite, HTML, CSS, Javascript")
+st.write("- ###### [Scraping](https://github.com/Yann-Fournier/Ydays-Data-B1) des sites alvergnas.com et "
+         "Aramisauto.com . Nettoyage et affichage des données récoltées sur Streamlit avec des graphiques")
+st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: Python, Selenium, Streamlit, "
+         "MongoDb, matplotlib, numpy, pandas")
+st.write(" ")
+
+st.write("- ###### Création d'une extension google chrome")
+st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: HTML, CSS, Javascript, JSON")
+st.write(" ")
+
+st.write("- ###### Projet [tetris](https://github.com/Yann-Fournier/Tetris-js-B1) sur le web")
+st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: HTML, CSS, Javascript")
+st.write(" ")
+
+st.write("- ###### Création d'un [émulateur CHIP-8](https://github.com/Yann-Fournier/Emulateur-CHIP-8-B2) en golang")
+st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: Golang, CHIP-8, ebiten")
+st.write(" ")
+
+st.write("- ###### Création d'un [forum](https://github.com/Yann-Fournier/Forum-B1) de discussion sur le web")
+st.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛠 Technologies: Golang, SQLite, HTML, CSS, Javascript")
 
 # Nouveau -------------------
-with open("html/projet_pro_perso.html") as f:
-    st.markdown("<html>{}</html>".format(f.read()), unsafe_allow_html=True)
+# with open("html/projet_pro_perso.html") as f:
+#     st.markdown("<html>{}</html>".format(f.read()), unsafe_allow_html=True)
 
 # Blog -----------------------------------------------------------------------------------------------
 st.write("---")  # Séparation en markdown
